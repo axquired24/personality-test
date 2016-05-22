@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#F8E8FF;
+	margin:0;
+	font:14px 'Segoe UI';
+}
+div#section{
+	padding:10px;
+}
+
+div.section-menu{
+	width:100%; 
+	background-color: #F7AEFF; 
+	border:#999999 1px solid;
+	position:fixed;
+	top:0;
+}
+	div.section-menu a{
+		text-decoration:none;
+		font-weight:bold;
+		padding:15px;
+		color:#666;
+	}
+	div.section-menu a:hover, .active{
+		text-decoration:none;
+		color:#333;
+		background-color:#F8E8FF;
+	}
+	div#formConten{
+		padding:20px;
+		font:16px 'segoe ui';
+		}
+		div#formConten input, select, textarea{
+			-moz-transition: all 0.26s ease-in;			
+			-webkit-transition: all 0.26s ease-in;			
+			-o-transition: all 0.26s ease-in;			
+			-ms-transition: all 0.26s ease-in;			
+			padding:15px;
+			margin:10px;
+			font:12px 'segoe ui';
+			display:block;
+		}
+		div#formConten input:focus, textarea:focus{
+			-moz-transition: all 0.26s ease-out;
+			-webkit-transition: all 0.26s ease-out;
+			-o-transition: all 0.26s ease-out;
+			-ms-transition: all 0.26s ease-out;
+			padding-left:100px;
+		}		
+		div#formConten input[type='submit'], div#formConten input[type='reset']{
+			border:#9900CC 1px solid;
+			text-transform:uppercase;
+			color:#FFFFFF;
+			background:#990099;
+			font-weight:bold;
+			display:inline;
+		}
+		div#formConten input[type='submit']:hover, div#formConten input[type='reset']:hover{
+			cursor:pointer;
+			border-color:#FFFFFF;
+			padding:15px;
+		}
+		
